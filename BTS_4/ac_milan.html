@@ -11,47 +11,70 @@
 </head>
 <body>
 
-  <div>
-    
-  </div>
-
-  <div class="slider">
-    <div class="slides">
-
-      <input type="radio" name="radio-btn" id="radio1">
-      <input type="radio" name="radio-btn" id="radio2">
-      <input type="radio" name="radio-btn" id="radio3">
-      <input type="radio" name="radio-btn" id="radio4">
-
-      <div class="slide first">
-        <img src="maglia.jpg" alt="">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo.jpg" alt="Avatar Logo" width="90px" height="90px" class="rounded-pill"> 
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Squadra</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Storia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trofei</a>
+          </li>    
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
       </div>
-      <div class="slide">
-        <img src="scudo.png" alt="">
-      </div>
-      <div class="slide">
-        <img src="Rafael-Leao-1u.jpg" alt="">
-      </div>
-      <div class="slide">
-        <img src="maglia2.jpg" alt="">
-      </div>
-
-      <div class="navigation-auto">
-        <div class="auto-btn1"></div>
-        <div class="auto-btn2"></div>
-        <div class="auto-btn3"></div>
-        <div class="auto-btn4"></div>
-      </div>
-
     </div>
+  </nav>
 
-    <div class="navigation-manual">
-      <label for="radio1" class="manual-btn"></label>
-      <label for="radio2" class="manual-btn"></label>
-      <label for="radio3" class="manual-btn"></label>
-      <label for="radio4" class="manual-btn"></label>
+  <div class="immagini">
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <div class="slide first">
+          <img src="maglia.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="scudo.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="Rafael-Leao-1u.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="maglia2.jpg" alt="">
+        </div>
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
     </div>
-
   </div>
 
 </body>
