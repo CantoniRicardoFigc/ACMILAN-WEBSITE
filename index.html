@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>AC MILAN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .fa {
+      padding: 20px;
+      height: 70px;
+      width: 70px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      font-size: 30px;
+    }
+    .fa:hover {
+      opacity: 0.7;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    .l:hover {
+      opacity: 0.7;
+    }
+</style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="logo.jpg" style="width:80px;" class="rounded-pill"> 
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="squadra.html">SQUADRA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="storia.html">STORIA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trofei.html">TROFEI</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="maglia.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Maglia Milan</h3>
+          <p>Prima maglia da gioco ufficiale 2022/23!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="scudo.png" alt="Chicago" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Scudetto</h3>
+          <p>Scudetto Milan anno 2021/22, campioni d'Italia!</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="rleao.png" alt="New York" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Rafael Leao</h3>
+          <p>Il gol al derby del nostro gioiello!</p>
+        </div>  
+      </div>
+      <div class="carousel-item">
+        <img src="maglia2.jpg" alt="New York" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Maglia Milan</h3>
+          <p>Seconda maglia da gioco ufficiale 2022/23!</p>
+        </div>  
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <div class="container mt-3">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a style="color:black" class="nav-link active" data-bs-toggle="tab" href="#squadra">Squadra</a>
+      </li>
+      <li class="nav-item">
+        <a style="color:black" class="nav-link" data-bs-toggle="tab" href="#storia">Storia</a>
+      </li>
+      <li class="nav-item">
+        <a style="color:black" class="nav-link" data-bs-toggle="tab" href="#trofei">Trofei</a>
+      </li>
+      <li class="nav-item">
+        <a style="color:black" class="nav-link" data-bs-toggle="tab" href="#calendario">Calendario</a>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div id="squadra" class="container tab-pane active"><br>
+        <h3>SQUADRA</h3>
+        <p>Titolari, panchinari e allenatore tutti riuniti a Milanello in una singola foto per affrontare la nuova stagione 
+          2022/23 <a style="color:red" href="squadra.html">Scopri di più</a></p>
+        <img src="squadra.jpg" class="mx-auto d-block" style="width:50%">
+      </div>
+      <div id="storia" class="container tab-pane fade"><br>
+        <h3>STORIA</h3>
+        <p>1899, la data di nascita di questo fantastico club, ricco di storia e che ci ha regalato emozioni forti nel corso 
+          degli anni <a style="color:red" href="storia.html">Scopri di più</a></p>
+        <img src="storia.png" class="mx-auto d-block" style="width:50%">
+      </div>
+      <div id="trofei" class="container tab-pane fade"><br>
+        <h3>TROFEI</h3>
+        <p>Il club rossonero ha collezzionato decine di trofei esclusivamente importanti tra cui le nostre 7 Coppe dei 
+          Campioni <a style="color:red" href="trofei.html">Scopri di più</a></p>
+        <img src="champions.jpg" class="mx-auto d-block" style="width:50%">
+      </div>
+      <div id="calendario" class="container tab-pane fade"><br>
+        <h3>CALENDARIO</h3>
+        <p>Ecco il calendario del Milan in casa e in trasferta della stagione 2022/23, scopri di più per vedere gli scorsi 
+          risultati <a style="color:red" href="classifica.html">Scopri di più</a></ul></p>
+        <img src="calendario.jpg" class="mx-auto d-block" style="width:50%">
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-light p-3"></div>
+  <div class="col-sm-12 col-lg-12 text-center" style="background-color:black;">
+    <h3>#SEMPREMILAN <img src="logo.jpg" style="width:100px;" class="rounded-pill"> #ALWAYSMILAN</h3>
+    <br>
+    <h5>AC MILAN SUI SOCIAL MEDIA</h5>
+    <a href="https://www.instagram.com/accounts/login/?next=%2Facmilan%2F&source=omni_redirect" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/ACMilan" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/acmilan" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/acmilan" class="fa fa-youtube"></a><br><br>
+    <ul style="color:darkred" class="navbar-nav me-auto">
+      <li class="nav-item">
+        <a class="l nav-link" href="https://www.acmilan.com/it">AC MILAN | Sito Ufficiale</a>
+      </li>
+      <li class="nav-item">
+        <a class="l nav-link" href="https://store.acmilan.com/">AC MILAN Store</a>
+      </li>
+      <li class="nav-item">
+        <a class="l nav-link" href="https://www.acmilan.com/it/news/articoli/ultime">AC MILAN Ultime News</a>
+      </li>
+    </ul><br>
+  </div>
+
+</body>
+</html>
